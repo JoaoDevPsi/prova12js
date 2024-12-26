@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Livros</title>
+    <link rel="stylesheet" href="prova12.css">
+</head>
+<body>
+    <h1>Catálogo de Livros</h1>
+
+    <div id="formularioAdicao">
+        <h2>Adicionar Livro</h2>
+        <input type="text" id="titulo" placeholder="Título"><br>
+        <input type="text" id="autor" placeholder="Autor"><br>
+        <input type="text" id="genero" placeholder="Gênero"><br>
+        <input type="number" id="ano" placeholder="Ano de Publicação"><br>
+        <button id="btnAdicionar">Adicionar Livro</button>
+    </div>
+
+    <div id="busca">
+        <h2>Buscar Livro</h2>
+        <input type="text" id="campoBusca" placeholder="Buscar por título, autor ou gênero">
+        <button id="btnBuscar">Buscar</button> 
+    </div>
+
+    <div id="ordenacao">
+        <h2>Ordenar por:</h2>
+        <button data-tipo="titulo">Título</button>
+        <button data-tipo="autor">Autor</button>
+        <button data-tipo="avaliacao">Avaliação</button>
+    </div>
+
+    <ul id="listaLivros"></ul>
+
+    <script src="prova12.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f0f5f5; 
+    color: #333; 
+}
+
+h1, h2 {
+    color: #0056b3; 
+}
+
+.container {
+    max-width: 900px; 
+    margin: 0 auto; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#formularioAdicao {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    margin-bottom: 20px;
+}
+
+#formularioAdicao input {
+    flex: 1 1 150px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+#btnAdicionar {
+    padding: 8px 16px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+#btnAdicionar:hover {
+    background-color: #0056b3;
+}
+
+#busca {
+    margin-bottom: 20px;
+    display: flex; 
+    gap: 10px;
+}
+#campoBusca{
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#btnBuscar{
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#btnBuscar:hover{
+    background-color: #1e7e34;
+}
+
+#ordenacao {
+    margin-bottom: 20px;
+}
+
+#ordenacao button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#ordenacao button:hover {
+    background-color: #5a6268;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+li:hover {
+    transform: scale(1.01); 
+}
+
+li h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+li p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+li button.avaliar {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; 
+    transition: background-color 0.3s ease;
+}
+li button.avaliar:hover{
+    background-color: #d39e00;
+}
